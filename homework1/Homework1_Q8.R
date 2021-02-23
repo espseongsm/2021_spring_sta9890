@@ -4,7 +4,8 @@ setwd("~/Documents/Baruch_GA/2021_Spring_STA9890_StatisticalLearning/homework1")
 ####################################
 # 8 (a)
 college = read.csv('College.csv')
-
+college =read.csv('College.csv', stringsAsFactors=TRUE)
+college
 
 #####################################
 # 8 (b)
